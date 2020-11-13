@@ -52,6 +52,7 @@ header {
   display: flex;
   font-size: 1.25rem;
   font-weight: 500;
+  margin-bottom: 1rem;
 }
 .order-item button {
   font-size: 2rem;
@@ -66,11 +67,10 @@ header {
 .item-name {
   flex-basis: 20rem;
 }
-.item-quantity {
-  flex-basis: 10rem;
-}
+
 .item-quantity input {
-  width:30px;
+  margin-left: 0.5rem;
+  width: 40px;
   position: relative;
   top: -5px;
   border: none;

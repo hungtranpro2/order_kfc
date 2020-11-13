@@ -11,27 +11,15 @@
       <header><img class="logo" src="img/logo.png" alt="Logo KFC" /></header>
       <div class="order">
         <h1 class="title">Your oder from KFC</h1>
-        <ul class="order-items">
-          <li class="order-item">
-            <span class="item-name">Pizza 001</span>
-            <span class="item-quantity">
-              <button>-</button>
-              <input type="number" value="1" />
-              <button>+</button>
-            </span>
-
-            <span class="item-price">
-              <span>$7.99</span>
-              <button class="btn-delete">X</button>
-            </span>
-          </li>
+        <ul id="order-items">
+          
         </ul>
 
         <button id="btn-add">Add food</button>
         <div class="order-summary">
-          <p>Subtotal <span class="money">$15.98</span></p>
-          <p>Shipping <span class="money">$2</span></p>
-          <p>Total <span class="money">$7</span></p>
+          <p>Subtotal <span id="sub-total" class="money">$15.98</span></p>
+          <p>Shipping <span id="shipping" class="money">$2</span></p>
+          <p>Total <span id="total" class="money">$7</span></p>
         </div>
         <button id="btn-checkout">Checkout</button>
       </div>
